@@ -1,6 +1,6 @@
 # Welcome to my Github page
 
-## My name is Daniel Borne, you can find my resume [here](./resume)
+## My name is Daniel Borne, [here](src/index.html) is the landing site.
 
 ##View some of my projects here
 
