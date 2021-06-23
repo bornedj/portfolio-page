@@ -67,12 +67,15 @@ header h1 {
 
 #headshot {
     grid-area: 1 / 2 / 2 / 3;
-    width: 100%;
-    height: 100%;
+    overflow: hidden;
+    height: auto;
+    margin: 1em;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 #headshot img {
-    object-fit: contain;
+    object-fit: scale-down;
     width: 100%;
     height: auto;
     max-height: 100%;
