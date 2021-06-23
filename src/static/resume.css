@@ -28,3 +28,23 @@ header {
     height: 2rem;
     border-bottom: 1px solid gray;
 }
+
+header button {
+    background-color: black;
+    border-radius: 5px;
+    border-color: lightgray;
+    color: white;
+    display: inline;
+    margin-right: 1em;
+    height: auto;
+    width: auto;
+}
+
+header h1 {
+    border-color: white;
+    border-radius: 5px;
+    display: inline;
+    font-size: 1.5em;
+    margin-left: .5rem;
+    margin-right: 3em;
+}

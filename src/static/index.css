@@ -57,6 +57,7 @@ header h1 {
     height: 95%;
     margin-top: 2rem;
     margin-left: 1em;
+    grid-gap: 1rem;
 }
 
 /* headshot */
