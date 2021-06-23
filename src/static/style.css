@@ -60,11 +60,7 @@ header h1 {
     width: 100vw;
 }
 
-/* .grid img {
-    grid-area: 1 / 2 / 2 / 3;
-    object-fit: contain;
-} */
-
+/* headshot */
 #headshot {
     grid-area: 1 / 2 / 2 / 3;
     overflow: hidden;
@@ -81,10 +77,8 @@ header h1 {
     max-height: 100%;
 }
 
-#projects {
-    grid-area: 2 / 2 / 3 / 3;
-}
 
+/* Bio */
 #bio {
     grid-area: 1 / 1 / 2 / 2;
     height: auto;
@@ -102,13 +96,31 @@ header h1 {
     line-height: 1em;
 }
 
-#bio button {
+/* projects */
+#projects {
+}
+
+#projects ul {
+    list-style-type: none;
+}
+
+/* tech stack */
+#tech-stack-icons {
+    grid-area: 2 / 2 / 3 / 3;
+    justify-content: center;
+    display: flex;
+    align-items: flex-start;
+}
+
+#tech-stack-icons button {
+    display: block;
     font-size: 2em;
-    height: auto;
+    height: 2em;
     width: auto;
     background-color: white;
     border-color: black;
     border-radius: 5px;
     font-weight: bold;
     margin-top: .5em;
+    justify-self: center;
 }
