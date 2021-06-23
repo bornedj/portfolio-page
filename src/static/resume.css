@@ -48,3 +48,9 @@ header h1 {
     margin-left: .5rem;
     margin-right: 3em;
 }
+
+#resume-container {
+    margin-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
