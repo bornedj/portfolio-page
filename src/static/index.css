@@ -58,6 +58,7 @@ header h1 {
     margin-top: 2rem;
     margin-left: 1em;
     grid-gap: 1rem;
+    
 }
 
 /* headshot */
@@ -141,4 +142,17 @@ header h1 {
 #stack-container img {
     height: 100%;
     width: 3em;
+}
+
+/* tablet size */
+@media screen and (max-width: 929px){
+    .grid {
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+    }
+
+    header {
+       z-index: 2; 
+    }
 }
