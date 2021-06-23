@@ -18,6 +18,7 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 2rem;
+    border-bottom: 1px solid gray;
 }
 
 header button {
@@ -36,4 +37,30 @@ header h1 {
     font-size: 1.5em;
     margin-left: .5rem;
     margin-right: 3em;
+}
+
+/* about me */
+.grid {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+/* .grid img {
+    grid-area: 1 / 2 / 2 / 3;
+    object-fit: contain;
+} */
+
+#headshot {
+    grid-area: 1 / 2 / 2 / 3;
+    width: 100%;
+    height: 100%;
+}
+
+#headshot img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
 }
