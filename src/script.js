@@ -11,3 +11,7 @@ const openResume = event => {
 const openAboutMe = event => {
     window.location.href="./index.html"
 }
+
+const openContact = event => {
+    window.location.href = "./contact.html"
+}
