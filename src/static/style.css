@@ -127,3 +127,17 @@ header h1 {
     margin-top: .5em;
     justify-self: center;
 }
+
+#stack-container {
+    display: none;
+    width: 100%;
+    height: auto;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+
+}
+
+#stack-container img {
+    height: 100%;
+    width: 3em;
+}
