@@ -3,8 +3,11 @@
 <html lang="">
 
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="static/style.css">
         <title>Daniel Borne Portfolio</title>
+        <script src="script.js"></script>
     </head>
     
     <header>
@@ -29,8 +32,11 @@
                 </p>
             </div>
 
-            <div class="image-container" id="tech-stack-icons">
-                <button>My tech Stack</button>
+            <div id="tech-stack-icons">
+                <button id="stack-button" onclick= "displayStack()">My tech Stack</button>
+                <div class="image-container" id="stack-container">
+                    <i class="fab fa-html5"></i>
+                </div>
             </div>
 
             <div id="projects">
