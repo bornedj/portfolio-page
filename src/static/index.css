@@ -145,7 +145,20 @@ header h1 {
 }
 
 /* tablet size */
-@media screen and (max-width: 929px){
+@media screen and (max-width: 990px){
+    .grid {
+        display: flex;
+        position: relative;
+        flex-flow: row wrap;
+    }
+
+    header {
+       z-index: 2; 
+    }
+}
+
+/* phone size */
+@media screen and (max-width: 480px){
     .grid {
         display: flex;
         position: relative;
